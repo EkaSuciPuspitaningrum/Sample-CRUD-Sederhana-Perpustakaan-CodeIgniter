@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-27 08:22:36 --> Undefined variable $newses
+#0 C:\xampp\htdocs\perpustakaan\app\Views\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\perpustakaan\app\Controllers\Home.php(9): view('home')
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

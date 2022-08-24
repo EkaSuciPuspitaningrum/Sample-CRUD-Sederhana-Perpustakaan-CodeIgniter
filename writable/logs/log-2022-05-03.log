@@ -1,0 +1,469 @@
+CRITICAL - 2022-05-03 16:18:34 --> Call to undefined function crsft_field()
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/signup_use...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(25): view('user/signup_use...')
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->signUp()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 16:52:48 --> Call to undefined function App\Controllers\login()
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesDaftar()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 17:10:19 --> There is no data to insert.
+#0 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 17:11:34 --> There is no data to insert.
+#0 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:12:49 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:12:49 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:14:18 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:14:18 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:14:23 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:14:23 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:14:30 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:14:30 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:17:39 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:17:39 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:18:13 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:18:13 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:22:09 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:22:09 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:23:15 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:23:15 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:23:21 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:23:21 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:25:23 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:25:23 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:28:51 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:28:51 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:32:40 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:32:40 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:35:49 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:35:49 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:37:52 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:37:52 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:37:58 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:37:58 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:39:18 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:39:18 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:45:14 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:45:14 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:51:00 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 17:51:00 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:53:28 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 17:53:28 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:54:08 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 17:54:08 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:56:55 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 17:56:55 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:00:22 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 18:00:22 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:00:48 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 18:00:48 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:06:28 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 18:06:28 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:08:16 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 18:08:16 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:10:30 --> Unknown column 'email' in 'field list'
+CRITICAL - 2022-05-03 18:10:30 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:11:27 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 18:11:27 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:13:27 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 18:13:27 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 18:14:40 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-03 18:14:40 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\perpustakaan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#10 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

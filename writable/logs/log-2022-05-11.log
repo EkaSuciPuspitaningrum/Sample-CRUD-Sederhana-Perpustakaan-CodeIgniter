@@ -1,0 +1,184 @@
+CRITICAL - 2022-05-11 08:45:16 --> Undefined variable $currentPage
+#0 C:\xampp\htdocs\perpustakaan\app\Views\user\home_user.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/home_user', Array, true)
+#4 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(39): view('user/home_user')
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 09:12:44 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:12:46 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:13:45 --> Undefined property: App\Controllers\Admin::$Session
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 146)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->logout()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:52:48 --> Object of class App\Models\DaftarBukuModel could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->bukuuser()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 09:56:50 --> Undefined constant "App\Controllers\daftarBukuModel"
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->bukuuser()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 09:58:15 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->bukuuser()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 09:58:44 --> Object of class App\Models\DaftarBukuModel could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->bukuuser()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 09:58:59 --> Call to undefined method App\Models\DaftarBukuModel::links
+#0 C:\xampp\htdocs\perpustakaan\app\Views\user\daftar_buku.php(42): CodeIgniter\Model->__call('links', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/daftar_buk...', Array, true)
+#4 C:\xampp\htdocs\perpustakaan\app\Controllers\User.php(77): view('user/daftar_buk...', Array)
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->bukuuser()
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 11:19:36 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:19:37 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:21:45 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:21:47 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:26:50 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:27:23 --> Undefined property: App\Controllers\Admin::$daftarBukuModel
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 11:29:31 --> Call to undefined method App\Models\PesanKontakModel::search
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(53): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 11:30:42 --> Call to undefined method App\Models\PesanKontakModel::search
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(53): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 11:41:16 --> Undefined property: App\Controllers\Admin::$daftarBukuModel
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 11:47:06 --> Undefined property: App\Controllers\Admin::$daftarBukuModel
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 11:47:57 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:47:59 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 11:48:09 --> Undefined property: App\Controllers\Admin::$daftarBukuModel
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 11:48:34 --> Call to undefined method App\Models\PesanKontakModel::search
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Admin.php(53): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->kontakMasuk()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 13:08:12 --> Call to undefined method App\Models\PinjamBukuModel::search
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Pinjam.php(25): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Pinjam->pinjam()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjam))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 13:10:36 --> Call to undefined method App\Models\PinjamBukuModel::search
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Pinjam.php(25): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Pinjam->pinjam()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjam))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 13:22:04 --> Class "App\Controllers\PinjamBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->tambahpinjambuku()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 13:23:13 --> Class "App\Controllers\PinjamBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->tambahpinjambuku()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

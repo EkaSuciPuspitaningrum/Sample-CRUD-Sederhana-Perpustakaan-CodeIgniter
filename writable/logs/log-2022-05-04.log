@@ -1,0 +1,6 @@
+CRITICAL - 2022-05-04 12:47:19 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Admin->prosesLogin()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

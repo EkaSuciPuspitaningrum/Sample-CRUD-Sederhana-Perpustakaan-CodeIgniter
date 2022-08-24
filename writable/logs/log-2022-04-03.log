@@ -1,0 +1,134 @@
+CRITICAL - 2022-04-03 08:40:40 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\CI-NEWS\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI-NEWS\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\CI-NEWS\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\CI-NEWS\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\CI-NEWS\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-NEWS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-03 10:06:55 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('about', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(9): view('about')
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->about()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:10:51 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('about', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(9): view('about')
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->about()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:14:39 --> Undefined constant "layout"
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:14:44 --> Undefined constant "layout"
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('faqs', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(20): view('faqs')
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->faqs()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:14:48 --> Undefined constant "layout"
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('news', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(30): view('news')
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->news()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:50:04 --> Undefined constant "layout"
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:52:12 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:53:01 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:53:06 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 12:00:57 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 12:01:02 --> Invalid file: layout/page_layout.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 C:\xampp\htdocs\ci-news\system\View\View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#3 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(15): view('contact', Array)
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 21:52:29 --> Invalid file: news.php
+#0 C:\xampp\htdocs\ci-news\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news.php')
+#1 C:\xampp\htdocs\ci-news\system\Common.php(1089): CodeIgniter\View\View->render('news', Array, true)
+#2 C:\xampp\htdocs\ci-news\app\Controllers\Page.php(30): view('news')
+#3 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(832): App\Controllers\Page->news()
+#4 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-news\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-03 23:48:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DEFAULT CURRENT_TIMESTAMP,
+	CONSTRAINT `pk_news` PRIMARY KEY(`id`)
+) DEFAULT ...' at line 7
+ERROR - 2022-04-03 23:50:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DEFAULT CURRENT_TIMESTAMP,
+	CONSTRAINT `pk_news` PRIMARY KEY(`id`)
+) DEFAULT ...' at line 7

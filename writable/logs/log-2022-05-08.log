@@ -1,0 +1,28 @@
+CRITICAL - 2022-05-08 11:06:03 --> Undefined variable $currentPage
+#0 C:\xampp\htdocs\perpustakaan\app\Views\user\home_user.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/home_user', Array, true)
+#4 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(39): view('user/home_user')
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:07:54 --> Undefined variable $currentPage
+#0 C:\xampp\htdocs\perpustakaan\app\Views\user\home_user.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/home_user', Array, true)
+#4 C:\xampp\htdocs\perpustakaan\app\Controllers\Hadir.php(39): view('user/home_user')
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\Hadir->prosesHadir()
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hadir))
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:36:39 --> Class "App\Controllers\DaftarBukuModel" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->bukuuser()
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
